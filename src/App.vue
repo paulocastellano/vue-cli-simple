@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <button class="btn btn-primary btn-block">OLA</button>
     <img src="./assets/logo.png">
     <router-view/>
   </div>
