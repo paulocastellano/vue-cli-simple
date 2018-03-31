@@ -1,4 +1,4 @@
-# vue-123carros
+# vue-cli-simple
 
 > A Vue.js project
 
