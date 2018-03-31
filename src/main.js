@@ -4,7 +4,15 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+import jQuery from 'jquery/dist/jquery.slim'
+
 import 'bootstrap/dist/css/bootstrap.min.css'
+
+let Bootstrap = require('bootstrap')
+
+Vue.use(Bootstrap)
+
+global.jQuery = jQuery
 
 Vue.config.productionTip = false
 
