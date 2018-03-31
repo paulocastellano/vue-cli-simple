@@ -8,6 +8,8 @@ import jQuery from 'jquery/dist/jquery.slim'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 
+import 'font-awesome/css/font-awesome.min.css'
+
 let Bootstrap = require('bootstrap')
 
 Vue.use(Bootstrap)

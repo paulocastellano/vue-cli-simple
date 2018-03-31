@@ -1,0 +1,157 @@
+.btn:focus,.btn:active {
+   outline: none !important;
+   box-shadow: none !important;
+}
+
+.custom-input {
+  color: $form-input-color-text;
+  height: 45px;
+  font-size: 14px;
+  line-height: 16px;
+  border: 1px solid $form-input-color-border;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px 0 $form-input-color-shadow;
+  &:focus, &:active {
+    color: $form-input-color-text;
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: $form-input-color-border-focus;
+  }
+
+  &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: $form-input-color-text;
+    opacity: 1; /* Firefox */
+  }
+
+  &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+      color: $form-input-color-text;
+  }
+
+  &::-ms-input-placeholder { /* Microsoft Edge */
+      color: $form-input-color-text;
+  }
+}
+
+.custom-input-error {
+  color: $form-input-error-color-text;
+  height: 45px;
+  font-size: 14px;
+  line-height: 16px;
+  border: 1px solid $form-input-error-color-border;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px 0 $form-input-error-color-shadow;
+  &:focus, &:active {
+    outline: none !important;
+    box-shadow: none !important;
+    color: $form-input-error-color-text;
+    border-color: $form-input-error-color-border-focus;
+  }
+  &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: $form-input-error-color-text;
+    opacity: 1; /* Firefox */
+  }
+
+  &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+      color: $form-input-error-color-text;
+  }
+
+  &::-ms-input-placeholder { /* Microsoft Edge */
+      color: $form-input-error-color-text;
+  }
+}
+
+.input-error-text {
+  color: $form-input-error-color-text-error;
+  font-size: 11px;
+  line-height: 11px;
+}
+
+
+.custom-input-disabled {
+  color: $form-input-disabled-color-text;
+  height: 45px;
+  font-size: 14px;
+  line-height: 16px;
+  border: 1px solid $form-input-disabled-color-border;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px 0 $form-input-disabled-color-shadow;
+  &:focus, &:active {
+    color: $form-input-disabled-color-text;
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: $form-input-disabled-border-focus;
+  }
+
+  &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: $form-input-disabled-color-text;
+    opacity: 1; /* Firefox */
+  }
+
+  &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+      color: $form-input-disabled-color-text;
+  }
+
+  &::-ms-input-placeholder { /* Microsoft Edge */
+      color: $form-input-disabled-color-text;
+  }
+}
+
+
+.custom-text-area {
+  color: $form-textarea-color-text;
+  font-style: italic;
+  font-size: 14px;
+  line-height: 16px;
+  padding-top: 12px;
+  border: 1px solid $form-textarea-color-border;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px 0 $form-textarea-color-shadow;
+  &:focus, &:active {
+    color: $form-textarea-color-text;
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: $form-textarea-color-border-focus;
+  }
+
+  &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: $form-textarea-color-placeholder;
+    opacity: 1; /* Firefox */
+  }
+
+  &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: $form-textarea-color-placeholder;
+  }
+
+  &::-ms-input-placeholder { /* Microsoft Edge */
+    color: $form-textarea-color-placeholder;
+  }
+}
+
+.custom-select {
+  color: $form-select-color-text;
+  height: 45px;
+  font-size: 14px;
+  line-height: 16px;
+  border: 1px solid $form-select-color-border;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px 0 $form-select-color-shadow;
+  &:focus, &:active {
+    color: $form-select-color-text;
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: $form-select-color-border-focus;
+  }
+
+  &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: $form-select-color-text;
+    opacity: 1; /* Firefox */
+  }
+
+  &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+      color: $form-select-color-text;
+  }
+
+  &::-ms-input-placeholder { /* Microsoft Edge */
+      color: $form-select-color-text;
+  }
+}

@@ -1,0 +1,243 @@
+.section-login {
+	height: 5px;
+  width: 100%;
+  background-color: $color-primary-1;
+  .logo-login {
+    padding-top: 71px;
+  }
+	.or {
+		font-size: 18px;
+		line-height: 22px;
+		font-family: $font-primary-bold;
+		text-align: center;
+		color: $color-login-background-line-font-color;
+		padding-top: 10px;
+	}
+	.register-form {
+		margin-top: 30px!important;
+	}
+  .background-line {
+		margin-top:30px;
+		margin-bottom: 47px;
+    display: table;
+    white-space: nowrap;
+		color: $color-login-background-line-font-color;
+		font-size: 18px;
+		line-height: 22px;
+		font-family: $font-primary-bold;
+  }
+  .background-line > span {
+    padding: 0 20px;
+  }
+  .background-line:after, .background-line:before {
+    border-top: 1px solid $color-login-background-line;
+    content: '';
+    display: table-cell;
+    position: relative;
+    top: 0.8em;
+    width: 50%;
+  }
+	.line-recover-password {
+		margin-bottom: 30px;
+	}
+	.intro {
+		font-size: 14px;
+		line-height: 24px;
+		margin-bottom: 32px;
+		text-align: center;
+		color: $color-secondary-1;
+	}
+	.icon {
+		padding: 60px 0 30px 0;
+		i {
+			color: $color-primary-2;
+			font-family: 'FontAwesome';
+			text-align: center;
+
+			font-size: 45px;
+		}
+	}
+	.box-social-login {
+		margin-bottom: 23px;
+		outline: 1px solid $color-login-form-border;
+		padding-top: 8px;
+    padding-bottom: 8px;
+		outline-offset: 18px;
+		-moz-outline-radius: 5px;
+		.btn-esp-top-15 {
+			margin-top: 15px;
+		}
+	}
+	.box-form-login {
+		position: relative;
+		font-size: 16px;
+		line-height: 19px;
+		color: $color-secondary-1;
+		outline: 1px solid $color-login-form-border;
+		outline-offset: 18px;
+		-moz-outline-radius: 5px;
+    margin-top: 60px;
+		padding-top: 8px;
+    padding-bottom: 8px;
+		.form-group {
+			position: relative;
+			i {
+				color: $color-login-icon-input;
+			  position: absolute;
+	      padding: 38px 0px 0px 14px;
+				pointer-events: none;
+				font-family: 'FontAwesome';
+				font-style: normal;
+				left:  0px;
+			}
+
+		  input  {
+				padding-left:  40px;
+			}
+
+			input[type="password"]{
+				font-size:32px;
+			}
+
+
+		}
+		label {
+			font-size: 16px;
+			line-height: 19px;
+			color: $color-secondary-1;
+			font-family: $font-primary-bold;
+		}
+		span {
+			font-size: 12px;
+			line-height: 14px;
+			color: $color-primary-2;
+			float: right;
+			a {
+				color: $color-primary-2;
+				font-family: $font-primary-bold;
+				text-decoration: none;
+				&:hover {
+					color: $color-primary-2;
+					text-decoration: underline;
+				}
+			}
+		}
+		p {
+			padding-top:24px;
+			font-size: 12px;
+			line-height: 14px;
+			color: $color-secondary-2;
+			a {
+				color: $color-primary-2;
+				font-family: $font-primary-bold;
+				&:hover {
+					color: $color-primary-2;
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+	.back {
+		padding-top: 67px;
+		a {
+			font-size: 12px;
+			line-height: 14px;
+			font-family: $font-primary-bold;
+			color: $color-secondary-1;
+		}
+	}
+	.bg-city {
+		position: fixed;
+		bottom: 0;
+		height: 600px;
+		width: 100%;
+		background-image: url('./assets/img/bg_city.png');
+		background-position: center bottom;
+		background-size: 1102px 447px;
+		background-repeat: repeat-x;
+	}
+
+}
+ 
+.styled-checkbox {
+  position: absolute; // take it out of document flow
+  opacity: 0; // hide it
+
+  & + label {
+    position: relative;
+    cursor: pointer;
+    padding: 0;
+  }
+
+  // Box.
+  & + label:before {
+    content: '';
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: text-top;
+    width: 20px;
+    height: 20px;
+    background: white;
+  }
+
+  // Box hover
+  &:hover + label:before {
+    background: $color-primary-2;
+  }
+
+  // Box focus
+  &:focus + label:before {
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+  }
+
+  // Box checked
+  &:checked + label:before {
+    background: $color-primary-2;
+  }
+
+  // Disabled state label.
+  &:disabled + label {
+    color: #b8b8b8;
+    cursor: auto;
+  }
+
+  // Disabled box.
+  &:disabled + label:before {
+    box-shadow: none;
+    background: #ddd;
+  }
+
+  // Checkmark. Could be replaced with an image
+  &:checked + label:after {
+    content: '';
+    position: absolute;
+    left: 5px;
+    top: 9px;
+    background: white;
+    width: 2px;
+    height: 2px;
+    box-shadow:
+      2px 0 0 white,
+      4px 0 0 white,
+      4px -2px 0 white,
+      4px -4px 0 white,
+      4px -6px 0 white,
+      4px -8px 0 white;
+    transform: rotate(45deg);
+  }
+
+}
+
+.terms {
+	font-size: 12px;
+	color: $color-secondary-2;
+	margin-bottom: 26px;
+	margin-top: 26px;
+	a {
+		color: $color-primary-2;
+		&:hover, &:focus {
+			color: $color-primary-2;
+			text-decoration: underline;
+		}
+	}
+}

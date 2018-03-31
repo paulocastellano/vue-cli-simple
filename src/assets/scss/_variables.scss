@@ -1,0 +1,190 @@
+/*
+ * FONTS COLOR
+*/
+
+$color-primary-1:    #FFA200;
+$color-primary-2:    #00A6EE;
+
+$color-secondary-1:  #2E2E2E;
+$color-secondary-2:  #707070;
+$color-secondary-3:  #b8b8b8;
+
+/*
+ * UI ELEMENTS COLOR
+*/
+
+// BTN - PRIMARY
+
+$btn-color-primary:                  #FFFFFF;
+$btn-color-primary-active:           #FFFFFF;
+$btn-color-primary-hover:            #00A6EE;
+
+$btn-color-bg-primary:               #00A6EE;
+$btn-color-bg-primary-active:        #077CAF;
+$btn-color-bg-primary-hover:         #FFFFFF;
+
+$btn-color-border-primary:           #00A6EE;
+$btn-color-border-primary-active:    #077CAF;
+$btn-color-border-primary-hover:     #00A6EE;
+
+// BTN - SECONDARY
+
+$btn-color-secondary:                #FFFFFF;
+$btn-color-secondary-active:         #FFFFFF;
+$btn-color-secondary-hover:          #FFA200;
+
+$btn-color-bg-secondary:             #FFA200;
+$btn-color-bg-secondary-active:      #F59223;
+$btn-color-bg-secondary-hover:       #FFFFFF;
+
+$btn-color-border-secondary:         #FFA200;
+$btn-color-border-secondary-active:  #F59223;
+$btn-color-border-secondary-hover:   #FFA200;
+
+// BTN - SUCCESS
+
+$btn-color-success:                  #FFFFFF;
+$btn-color-success-active:           #FFFFFF;
+$btn-color-success-hover:            #FFFFFF;
+
+$btn-color-bg-success:               #7ED321;
+$btn-color-bg-success-active:        #7ED321;
+$btn-color-bg-success-hover:         #7ED321;
+
+$btn-color-border-success:           #7ED321;
+$btn-color-border-success-active:    #7ED321;
+$btn-color-border-success-hover:     #7ED321;
+
+// BTN - CANCEL
+
+$btn-color-cancel:                   #FFFFFF;
+$btn-color-cancel-active:            #FFFFFF;
+$btn-color-cancel-hover:             #FFFFFF;
+
+$btn-color-bg-cancel:                #FF3A3A;
+$btn-color-bg-cancel-active:         #FF3A3A;
+$btn-color-bg-cancel-hover:          #FF3A3A;
+
+$btn-color-border-cancel:            #FF3A3A;
+$btn-color-border-cancel-active:     #FF3A3A;
+$btn-color-border-cancel-hover:      #FF3A3A;
+
+// BTN - DISABLED
+
+$btn-color-disabled:                 #FFFFFF;
+$btn-color-disabled-active:          #FFFFFF;
+$btn-color-disabled-hover:           #FFFFFF;
+
+$btn-color-bg-disabled:              #B3B3B3;
+$btn-color-bg-disabled-active:       #B3B3B3;
+$btn-color-bg-disabled-hover:        #B3B3B3;
+
+$btn-color-border-disabled:          #B3B3B3;
+$btn-color-border-disabled-active:   #B3B3B3;
+$btn-color-border-disabled-hover:    #B3B3B3;
+
+// BTN - FACEBOOK
+
+$btn-color-facebook:                 #FFFFFF;
+$btn-color-facebook-active:          #FFFFFF;
+$btn-color-facebook-hover:           #3B5998;
+
+$btn-color-bg-facebook:              #3B5998;
+$btn-color-bg-facebook-active:       #00A6EE;
+$btn-color-bg-facebook-hover:        #FFFFFF;
+
+$btn-color-border-facebook:          #3B5998;
+$btn-color-border-facebook-active:   #00A6EE;
+$btn-color-border-facebook-hover:    #3B5998;
+
+$btn-color-line-facebook:            #E4E4E4;
+$btn-color-line-facebook-active:     #E4E4E4;
+$btn-color-line-facebook-hover:      #3B5998;
+
+// BTN - GMAIL
+
+$btn-color-gmail:                    #2E2E2E;
+$btn-color-gmail-active:             #FFFFFF;
+$btn-color-gmail-hover:              #DC4139;
+$btn-color-gmail-icon:               #DC4139;
+$btn-color-gmail-icon-active:        #FFFFFF;
+$btn-color-gmail-icon-hover:         #DC4139;
+
+$btn-color-bg-gmail:                 #F8F9FC;
+$btn-color-bg-gmail-active:          #DC4139;
+$btn-color-bg-gmail-hover:           #FFFFFF;
+
+$btn-color-border-gmail:             #B3B3B3;
+$btn-color-border-gmail-active:      #DC4139;
+$btn-color-border-gmail-hover:       #DC4139;
+
+$btn-color-line-gmail:               #B3B3B3;
+$btn-color-line-gmail-active:        #FFFFFF;
+$btn-color-line-gmail-hover:         #DC4139;
+
+// BTN - MAP
+
+$btn-color-map:                      #FFFFFF;
+$btn-color-map-active:               #FFFFFF;
+$btn-color-map-hover:                #FFFFFF;
+
+$btn-color-bg-map:                   #FF3A3A;
+$btn-color-bg-map-active:            #FF3A3A;
+$btn-color-bg-map-hover:             #FF3A3A;
+
+$btn-color-border-map:               #FF3A3A;
+$btn-color-border-map-active:        #FF3A3A;
+$btn-color-border-map-hover:         #FF3A3A;
+
+/*
+ * FORMS
+*/
+
+
+// FORM - INPUT
+
+$form-input-color-text:                    #707070;
+$form-input-color-placeholder:             #707070;
+$form-input-color-border:                  #B3B3B3;
+$form-input-color-border-focus:            #00A6EE;
+$form-input-color-shadow:                  rgba(204,204,204,0.5);
+
+$form-input-error-color-text:              #E05F5F;
+$form-input-error-color-text-error:        #E05F5F;
+$form-input-error-color-placeholder:       #E05F5F;
+$form-input-error-color-border:            #E05F5F;
+$form-input-error-color-border-focus:      #E05F5F;
+$form-input-error-color-shadow:            rgba(204,204,204,0.5);
+
+$form-input-disabled-color-text:           #999999;
+$form-input-disabled-color-background:     #ECECEC;
+$form-input-disabled-color-placeholder:    #999999;
+$form-input-disabled-border-focus:         #DDDDDD;
+$form-input-disabled-color-border:         #DDDDDD;
+$form-input-disabled-color-border-focus:   #DDDDDD;
+$form-input-disabled-color-shadow:         rgba(204,204,204,0.5);
+
+// FORM - TEXTAREA
+
+$form-textarea-color-text:                 #707070;
+$form-textarea-color-placeholder:          #AAAAAA;
+$form-textarea-color-border:               #B3B3B3;
+$form-textarea-color-border-focus:         #00A6EE;
+$form-textarea-color-shadow:               rgba(204,204,204,0.5);
+
+// FORM - SELECT
+
+$form-select-color-text:                   #707070;
+$form-select-color-border:                 #B3B3B3;
+$form-select-color-border-focus:           #00A6EE;
+$form-select-color-shadow:                 rgba(204,204,204,0.5);
+
+/*
+ * COMPONENTS
+*/
+
+// LOGIN
+$color-login-background-line-font-color:   #B3B3B3;
+$color-login-background-line:              #E1E7EE;
+$color-login-form-border:                  #E3E3E3;
+$color-login-icon-input:                   #b5b5b4;

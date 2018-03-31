@@ -1,0 +1,280 @@
+.btn:focus,.btn:active {
+   outline: none !important;
+   box-shadow: none !important;
+}
+
+.btn-primary {
+  border-radius: 5px;
+  font-family: $font-primary-bold;
+  font-size: 14px;
+  height: 45px;
+  line-height: 16px;
+  color: $btn-color-primary;
+  background-color: $btn-color-bg-primary;
+  border-color: $btn-color-border-primary;
+
+  &:hover {
+    color: $btn-color-primary-hover;
+    background-color: $btn-color-bg-primary-hover;
+    border-color: $btn-color-border-primary-hover;
+  }
+
+  &:active {
+    color: $btn-color-primary-active!important;
+    background-color: $btn-color-bg-primary-active!important;
+    border-color: $btn-color-border-primary-active!important;
+  }
+}
+
+.btn-secondary {
+  border-radius: 5px;
+  font-family: $font-primary-bold;
+  font-size: 14px;
+  height: 45px;
+  line-height: 16px;
+  color: $btn-color-secondary;
+  background-color: $btn-color-bg-secondary;
+  border-color: $btn-color-border-secondary;
+
+  &:hover {
+    color: $btn-color-secondary-hover;
+    background-color: $btn-color-bg-secondary-hover;
+    border-color: $btn-color-border-secondary-hover;
+  }
+  &:active {
+    color: $btn-color-secondary-active!important;
+    background-color: $btn-color-bg-secondary-active!important;
+    border-color: $btn-color-border-secondary-active!important;
+  }
+}
+
+.btn-success {
+  border-radius: 5px;
+  font-family: $font-primary-bold;
+  font-size: 14px;
+  height: 45px;
+  line-height: 16px;
+  color: $btn-color-success;
+  background-color: $btn-color-bg-success;
+  border-color: $btn-color-border-success;
+
+  &:hover {
+    color: $btn-color-success-hover;
+    background-color: $btn-color-bg-success-hover;
+    border-color: $btn-color-border-success-hover;
+  }
+  &:active {
+    color: $btn-color-success-active!important;
+    background-color: $btn-color-bg-success-active!important;
+    border-color: $btn-color-border-success-active!important;
+  }
+}
+
+.btn-cancel {
+  border-radius: 5px;
+  font-family: $font-primary-bold;
+  font-size: 14px;
+  height: 45px;
+  line-height: 16px;
+  color: $btn-color-cancel;
+  background-color: $btn-color-bg-cancel;
+  border-color: $btn-color-border-cancel;
+
+  &:hover {
+    color: $btn-color-cancel-hover;
+    background-color: $btn-color-bg-cancel-hover;
+    border-color: $btn-color-border-cancel-hover;
+  }
+  &:active {
+    color: $btn-color-cancel-active!important;
+    background-color: $btn-color-bg-cancel-active!important;
+    border-color: $btn-color-border-cancel-active!important;
+  }
+}
+
+.btn-disabled {
+  border-radius: 5px;
+  font-family: $font-primary-bold;
+  font-size: 14px;
+  height: 45px;
+  line-height: 16px;
+  color: $btn-color-disabled;
+  background-color: $btn-color-bg-disabled;
+  border-color: $btn-color-border-disabled;
+  &:disabled {
+    color: $btn-color-disabled;
+    background-color: $btn-color-bg-disabled;
+    border-color: $btn-color-border-disabled;
+  }
+  &:hover {
+    color: $btn-color-disabled-hover;
+    background-color: $btn-color-bg-disabled-hover;
+    border-color: $btn-color-border-disabled-hover;
+  }
+  &:active {
+    color: $btn-color-cancel-active!important;;
+    background-color: $btn-color-bg-disabled-active!important;;
+    border-color: $btn-color-border-disabled-active!important;;
+  }
+}
+
+.btn-facebook {
+  border-radius: 5px;
+  font-family: $font-primary-bold;
+  font-size: 14px;
+  height: 45px;
+  line-height: 16px;
+  color: $btn-color-facebook;
+  background-color: $btn-color-bg-facebook;
+  border-color: $btn-color-border-facebook;
+
+  .social-icon {
+    position: relative;
+    left: -15px;
+    float: left;
+    bottom: 0;
+    width: 51px;
+    line-height: 10px;
+    height: 27px;
+    padding-top: 7px;
+    border-right: 1px solid $btn-color-line-facebook;
+
+    i {
+      color: $btn-color-facebook;
+      width: 51px;
+      text-align: center;
+    }
+
+  }
+  &:hover {
+    color: $btn-color-facebook-hover;
+    background-color: $btn-color-bg-facebook-hover;
+    border-color: $btn-color-border-facebook-hover;
+
+    .social-icon {
+      border-right: 1px solid $btn-color-line-facebook-hover!important;
+
+      i {
+        color: $btn-color-facebook-hover;
+      }
+
+    }
+
+  }
+  &:active {
+    color: $btn-color-facebook-active!important;
+    background-color: $btn-color-bg-facebook-active!important;
+    border-color: $btn-color-border-facebook-active!important;
+
+    .social-icon {
+      border-right: 1px solid $btn-color-line-facebook-active!important;
+
+      i {
+        color: $btn-color-facebook-active;
+      }
+
+    }
+  }
+  label {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 4px;
+    left: -15px;
+  }
+}
+
+.btn-gmail {
+  border-radius: 5px;
+  font-family: $font-primary-bold;
+  font-size: 14px;
+  height: 45px;
+  line-height: 16px;
+  color: $btn-color-gmail;
+  background-color: $btn-color-bg-gmail;
+  border-color: $btn-color-border-gmail;
+
+  .social-icon {
+    position: relative;
+    left: -15px;
+    float: left;
+    bottom: 0;
+    width: 51px;
+    line-height: 10px;
+    height: 27px;
+    padding-top: 7px;
+    border-right: 1px solid $btn-color-line-gmail;
+    color: $btn-color-gmail-icon;
+    i {
+      color: $btn-color-gmail-icon;
+      width: 51px;
+      text-align: center;
+    }
+
+  }
+
+  &:hover {
+    color: $btn-color-gmail-hover;
+    background-color: $btn-color-bg-gmail-hover;
+    border-color: $btn-color-border-gmail-hover;
+    color: $btn-color-gmail-icon-hover;
+    .social-icon {
+      border-right: 1px solid $btn-color-line-gmail-hover!important;
+      color: $btn-color-gmail-icon-hover;
+      i {
+        color: $btn-color-gmail-hover;
+      }
+    }
+
+  }
+  &:active {
+    color: $btn-color-gmail-active!important;
+    background-color: $btn-color-bg-gmail-active!important;
+    border-color: $btn-color-border-gmail-active!important;
+    color: $btn-color-gmail-icon-active;
+    .social-icon {
+      border-right: 1px solid $btn-color-line-gmail-active!important;
+      color: $btn-color-gmail-icon-active;
+      i {
+        color: $btn-color-gmail-active;
+      }
+
+    }
+  }
+  label {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 4px;
+    left: -15px;
+  }
+}
+
+.btn-map {
+  border-radius: 5px;
+  font-family: $font-primary-bold;
+  font-size: 10px;
+  height: 45px;
+  width: 45px;
+  text-align: center;
+  padding-left: 0px;
+  padding-right: 0px;
+  line-height: 11px;
+  color: $btn-color-cancel;
+  background-color: $btn-color-bg-cancel;
+  border-color: $btn-color-border-cancel;
+  span {
+    position: relative;
+    padding-left: 5px;
+  }
+  &:hover {
+    color: $btn-color-cancel-hover;
+    background-color: $btn-color-bg-cancel-hover;
+    border-color: $btn-color-border-cancel-hover;
+  }
+  &:active {
+    color: $btn-color-cancel-active!important;
+    background-color: $btn-color-bg-cancel-active!important;
+    border-color: $btn-color-border-cancel-active!important;
+  }
+}
