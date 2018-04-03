@@ -180,20 +180,13 @@
                 maxFilesize: 3,
                 addRemoveLinks: false,
                 autoProcessQueue: true,
-                init: function(images_question) {
-
+                init: function() {
+                    self = this;
                     this.on("success", function(file, response) {
-
-                        console.log(this.images_question);
-
-                        var photos = [];
-                        photos.push({
+                        self.images_question.push({
                           question_id: response.question_id,
                           photo_id: response.photo_id
                         });
-
-                        console.log(photos);
-
                     })
                 }
             }
